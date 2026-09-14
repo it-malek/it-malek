@@ -1,43 +1,64 @@
-# Malek Elaghel
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Malek Elaghel — scientific computing and data engineering" width="100%">
+</p>
 
-**Data Engineer & Data Scientist | Physics Background | Chicago, IL**
+<p align="center">
+  <strong>Python · SQL · Applied statistics · Reproducible systems</strong><br>
+  Chicago, IL
+</p>
 
----
-
-## About
-
-I'm a Lake Forest College graduate (BA, Data Science & Physics, 3.88 GPA) and United World College alumnus based in Chicago. I build data pipelines and ML systems, applying the rigor of physics to messy, real-world problems. Currently working as a researcher and looking for data engineering / data science roles where I can keep building at scale.
-
----
-
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
+<p align="center">
+  <a href="https://climate-inequality.streamlit.app/">Explore my climate dashboard</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/malek-elaghel/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:malekelaghel@gmail.com">Email</a>
+</p>
 
 ---
 
-## Featured Projects
+I build scientific software and data systems, from calibration mathematics and database migrations to spatial analysis and interactive dashboards.
 
-**[sentiment-analysis-project](https://github.com/it-malek/sentiment-analysis-project)**
-End-to-end NLP pipeline using HuggingFace Transformers (RoBERTa) for sentiment classification, with custom text preprocessing, batch inference, and trend visualization on 1.6M tweets.
+My professional work brings together **production Python, measurement uncertainty, data validation, and reporting automation** in a regulated laboratory. My independent projects explore numerical methods, climate data, and machine learning.
 
-**[pdf-merge-utility](https://github.com/it-malek/pdf-merge-utility)**
-Python automation tool that intelligently matches and merges PDFs by embedded document IDs, with date filtering, batch processing, and a Tkinter GUI. Built to automate a real reporting workflow at work.
+I care about the full path from raw data to a result someone can inspect: clear assumptions, tested implementations, reproducible outputs, and checks that can change the conclusion.
 
----
+## Selected work
 
-## Currently Building
+### [Climate inequality](https://github.com/it-malek/climate-inequality)
+**Spatial statistics · Data engineering · Research**
 
-A modern ELT pipeline with dbt, Airflow, and BigQuery — full repo coming soon.
+An **8.6-million-row** climate pipeline covering **3,510 locations**, from DuckDB ingestion and Theil–Sen trends to interpolation and a live Streamlit dashboard. Validation includes holding out entire locations and replication against ERA5. Sensitivity checks exposed how station weighting distorted an initially compelling result.
 
----
+`Python` `DuckDB` `SciPy` `Plotly` `Streamlit`  
+[Explore the dashboard ↗](https://climate-inequality.streamlit.app/) · [Read the code](https://github.com/it-malek/climate-inequality)
 
-## Contact
+### [Numerical methods](https://github.com/it-malek/numerical-methods)
+**Scientific computing · Algorithm implementation · Testing**
 
-malekelaghel@gmail.com
+A NumPy library implementing root finding, quadrature, ODE solvers, linear systems, optimization, and regression from scratch. Structured results expose convergence histories; benchmarks compare implementations with established libraries. **118 tests · 92% line coverage.**
+
+`Python` `NumPy` `SciPy` `pytest`  
+[Explore the library ↗](https://github.com/it-malek/numerical-methods)
+
+### [Sentiment analysis](https://github.com/it-malek/sentiment-analysis-project)
+**Natural language processing · Modular pipelines**
+
+A transformer-based workflow for the **Sentiment140 dataset**, with RoBERTa sentiment scoring, noisy-text preprocessing, batch inference, and temporal visualization. Data loading, processing, modeling, and visualization are separated into reusable modules.
+
+`Python` `pandas` `NLTK` `Hugging Face Transformers`  
+[Explore the pipeline ↗](https://github.com/it-malek/sentiment-analysis-project)
+
+**Also:** [PDF merge utility](https://github.com/it-malek/pdf-merge-utility) — document pairing by filename identifiers, batch merging, date filtering, and a desktop selection interface.
+
+## Tools I work with
+
+| Area | Tools & methods |
+| :--- | :--- |
+| Scientific computing & analysis | Python, NumPy, SciPy, pandas, statistical QA/QC, measurement uncertainty |
+| Data systems | SQL, PostgreSQL, MySQL, DuckDB, relational modeling, ETL, data validation |
+| Applications & visualization | TypeScript, Next.js, Streamlit, Plotly |
+| Engineering practice | Git, GitHub Actions, automated tests, reproducible builds and reference data |
+
+## Background
+
+**B.A. in Physics and Data Science · Lake Forest College**  
+Magna cum laude · United World College alumnus
