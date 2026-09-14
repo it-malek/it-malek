@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">Malek Elaghel — Scientific computing and data engineering</title>
+<desc id="desc">A dark navy banner with mint typography and abstract contour lines.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1727"/><stop offset="1" stop-color="#142f3a"/></linearGradient>
+<linearGradient id="line" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#64d9be" stop-opacity=".08"/><stop offset=".6" stop-color="#64d9be" stop-opacity=".65"/><stop offset="1" stop-color="#a5eee0" stop-opacity=".15"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#a1c5cc" opacity=".12"/></pattern>
+<clipPath id="clip"><rect width="1280" height="320" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1280" height="320" fill="url(#bg)"/>
+<rect width="1280" height="320" fill="url(#grid)"/>
+<g fill="none" stroke="url(#line)" stroke-width="1.4">
+<path d="M780 340 C760 270 865 270 872 191 S939 24 1075 47 S1175 130 1307 19"/>
+<path d="M800 348 C780 275 885 280 891 203 S949 44 1084 67 S1190 151 1327 38"/>
+<path d="M820 356 C800 280 905 290 910 215 S959 64 1093 87 S1205 172 1347 57"/>
+<path d="M840 364 C820 285 925 300 929 227 S969 84 1102 107 S1220 193 1367 76"/>
+<path d="M860 372 C840 290 945 310 948 239 S979 104 1111 127 S1235 214 1387 95"/>
+<path d="M880 380 C860 295 965 320 967 251 S989 124 1120 147 S1250 235 1407 114"/>
+<path d="M900 388 C880 300 985 330 986 263 S999 144 1129 167 S1265 256 1427 133"/>
+<path d="M920 396 C900 305 1005 340 1005 275 S1009 164 1138 187 S1280 277 1447 152"/>
+<path d="M940 404 C920 310 1025 350 1024 287 S1019 184 1147 207 S1295 298 1467 171"/>
+</g>
+<rect x="64" y="63" width="32" height="4" rx="2" fill="#78e4c7"/>
+<text x="64" y="115" fill="#8de6d0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="3">SCIENTIFIC COMPUTING / DATA ENGINEERING</text>
+<text x="60" y="196" fill="#f1f7f8" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Malek Elaghel</text>
+<text x="64" y="246" fill="#b5cbd2" font-family="Arial,Helvetica,sans-serif" font-size="23">From measurement to models. From data to working systems.</text>
+<circle cx="1084" cy="67" r="4" fill="#8de6d0"/>
+<circle cx="948" cy="239" r="4" fill="#efa98c"/>
+</g>
+</svg>
